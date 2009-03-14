@@ -1,0 +1,251 @@
+<ui version="4.0" >
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>375</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>241</width>
+     <height>217</height>
+    </rect>
+   </property>
+   <property name="layoutDirection" >
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" >
+    <property name="sizeConstraint" >
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item row="1" column="0" >
+     <widget class="QLabel" name="label_2" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Price of Day</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" >
+     <widget class="QLabel" name="label_6" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Price</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" >
+     <widget class="QLabel" name="label_3" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Days of staying</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" >
+     <widget class="QLabel" name="label_7" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Days</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" >
+     <widget class="QLabel" name="label_14" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Deposit</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" >
+     <widget class="QLabel" name="label_15" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Deposit</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" >
+     <widget class="QLabel" name="label_5" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Name</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" >
+     <widget class="QLabel" name="label_9" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>ID num</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" >
+     <widget class="QLineEdit" name="lineEdit" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" >
+     <widget class="QLineEdit" name="lineEdit_2" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" >
+     <widget class="QLabel" name="label_10" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Contact</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" >
+     <widget class="QLineEdit" name="lineEdit_3" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" >
+     <widget class="QLabel" name="label" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Room Number</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QLabel" name="label_4" >
+      <property name="layoutDirection" >
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text" >
+       <string>Num</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_8" >
+   <property name="geometry" >
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>92</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="layoutDirection" >
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text" >
+    <string>The record info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit" >
+   <property name="geometry" >
+    <rect>
+     <x>140</x>
+     <y>280</y>
+     <width>102</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>submit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel" >
+   <property name="geometry" >
+    <rect>
+     <x>250</x>
+     <y>280</y>
+     <width>102</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
